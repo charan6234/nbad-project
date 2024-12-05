@@ -1,0 +1,11 @@
+.header {
+  position: absolute;
+  font-weight: bolder;
+  font-size: 45pt;
+  height: 450px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: #0000008e;
+  z-index: 0;
+}

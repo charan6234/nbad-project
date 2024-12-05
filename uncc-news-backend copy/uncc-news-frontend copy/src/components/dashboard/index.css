@@ -1,0 +1,51 @@
+.heading {
+  padding: 10px 15px;
+  background-color: #373737;
+  color: white;
+  border-left: 10px solid #a49665;
+}
+
+.child {
+  position: absolute;
+  bottom: 30px;
+  color: white;
+}
+.zoom {
+  overflow: hidden;
+}
+
+.zoom:hover .slide {
+  height: 60px;
+  padding: 10px;
+  opacity: 1;
+}
+
+.slide {
+  position: absolute;
+  bottom: 103px;
+  height: 0px;
+  opacity: 0;
+  z-index: 1;
+  color: white;
+  background-color: #a49665;
+  display: flex;
+  width: 100%;
+
+  transition: 0.1s ease-in-out;
+}
+
+.image {
+  transition: 0.1s ease-in-out;
+}
+
+.image:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+a {
+  text-decoration: none;
+}
+.cursor-pointer:hover {
+  cursor: pointer;
+  text-decoration-line: underline;
+}
