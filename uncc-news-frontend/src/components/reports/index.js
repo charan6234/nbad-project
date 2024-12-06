@@ -107,6 +107,17 @@ const Reports = () => {
             <br />
           </p>
         </Col>
+        <Col md={12}>
+            <p className="text-muted fs-5">
+              Source:{" "}
+              <code>
+                {" "}
+                <a href="https://www.charlotte.edu/research" target="blank">
+                  <i>UNCC Research News Reports</i>
+                </a>
+              </code>
+            </p>
+          </Col>
       </Row>
     </div>
   );
