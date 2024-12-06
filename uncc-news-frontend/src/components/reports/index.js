@@ -41,11 +41,11 @@ const Reports = () => {
         <Col md={4} className="d-flex align-self-center">
           <motion.div
             initial={{ x: 400 }}
-            className="card report-card-right-shadow"
-            animate={{ x: 0 }}
+            className="card report-card-shadow"
+            animate={{ x: 100 }}
           >
-            <h4 className="display-4 p-4 fw-medium text-center">
-              Total Funding by Research Area (2019-2023)
+            <h4 className="fs-2 p-2 text-center">
+              Total <br />Funding by Research<br />Area<br /> (2019-2023)
             </h4>
           </motion.div>
         </Col>
@@ -55,7 +55,7 @@ const Reports = () => {
             className="card report-card-shadow"
             animate={{ x: -50 }}
           >
-            <h4 className="display-4 p-4 fw-medium text-center">
+            <h4 className="fs-2 p-2 text-center">
               Research Funding Trends (2019-2023)
             </h4>
           </motion.div>
