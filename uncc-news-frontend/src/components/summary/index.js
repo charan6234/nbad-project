@@ -74,6 +74,17 @@ const Summary = () => {
             tomorrow. Welcome to the cutting edge of innovation at UNC
             Charlotte.
           </p>
+          <Col md={12}>
+            <p className="text-muted fs-5">
+              Source:{" "}
+              <code>
+                {" "}
+                <a href="https://www.charlotte.edu/research" target="blank">
+                  <i>UNCC Research News Summary</i>
+                </a>
+              </code>
+            </p>
+          </Col>
         </Col>
       </Row>
     </div>
