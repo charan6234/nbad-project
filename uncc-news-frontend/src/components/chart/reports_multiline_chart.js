@@ -6,8 +6,8 @@ const ReportMultiLineChart = ({ data }) => {
 
   useEffect(() => {
     // Set dimensions
-    const width = 850;
-    const height = 400;
+    const width = 750;
+    const height = 300;
     const margin = { top: 50, right: 30, bottom: 120, left: 60 }; // Increased bottom margin for legends
 
     // Parse the data
