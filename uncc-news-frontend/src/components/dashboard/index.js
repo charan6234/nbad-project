@@ -251,8 +251,8 @@ const Dashboard = () => {
               Join us at UNC Charlotte to explore a world of opportunities,
               connect with visionary thinkers, and witness how our research is
               shaping the future. Together, we’re redefining the boundaries of
-              discovery and making a lasting impact on society. Welcome to UNC
-              Charlotte—where research meets possibility.
+              discovery and making a lasting impact on society.<br></br><br></br> Welcome to UNC
+              Charlotte — <i>where research meets possibility</i>.
               <br />
             </p>
           </Col>
@@ -262,7 +262,7 @@ const Dashboard = () => {
               <code>
                 {" "}
                 <a href="https://www.charlotte.edu/research" target="blank">
-                  UNCC Research News
+                  <i>UNCC Research News</i>
                 </a>
               </code>
             </p>
