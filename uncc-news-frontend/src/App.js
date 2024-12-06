@@ -5,7 +5,7 @@ import { Route, Routes } from "react-router";
 import NavBar from "./components/navbar";
 import Dashboard from "./components/dashboard";
 import Footer from "./components/footer";
-import Research from "./components/research";
+import Researches from "./components/research";
 import Summary from "./components/summary";
 import Reports from "./components/reports";
 
@@ -18,13 +18,58 @@ const App = () => {
           <Routes>
             <Route index={true} path="/" element={<Dashboard />} />
             <Route
-              path="/research/:id"
+              path="/research/chemistry"
               element={
-                <Research
-                  image={window.localStorage.getItem("image")}
-                  tagLine={window.localStorage.getItem("tagLine")}
-                  title={window.localStorage.getItem("title")}
-                  content={window.localStorage.getItem("content")}
+                <Researches.ChemistryResearch
+                />
+              }
+            />
+            <Route
+              path="/research/cyber-security"
+              element={
+                <Researches.CyberResearch
+                />
+              }
+            />
+            <Route
+              path="/research/artificial-intelligence"
+              element={
+                <Researches.AIResearch
+                />
+              }
+            />
+            <Route
+              path="/research/construction"
+              element={
+                <Researches.ConstructionResearch
+                />
+              }
+            />
+            <Route
+              path="/research/electric-electronics"
+              element={
+                <Researches.EEResearch
+                />
+              }
+            />
+            <Route
+              path="/research/physics"
+              element={
+                <Researches.PhysicsResearch
+                />
+              }
+            />
+            <Route
+              path="/research/internet-of-things"
+              element={
+                <Researches.IOTResearch
+                />
+              }
+            />
+            <Route
+              path="/research/aerospace"
+              element={
+                <Researches.AerospaceResearch
                 />
               }
             />
