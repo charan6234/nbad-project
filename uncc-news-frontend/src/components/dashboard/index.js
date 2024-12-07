@@ -267,6 +267,17 @@ const Dashboard = () => {
               </code>
             </p>
           </Col>
+                <Col md={12}>
+            <h3 className="heading">
+             Tech Stack used in this project
+            </h3>
+            <p className="fs-5">
+              <br />
+              In this project, I have used React to build a dynamic and responsive user interface, while Python Flask powers the backend to ensure robust and efficient API handling. For database management, MongoDB Atlas has been utilized, providing a scalable and secure cloud-based solution. The application is deployed on AWS EC2 instances running Ubuntu, ensuring high performance and reliability. Additionally, Nginx has been configured as a web server to handle requests efficiently and provide seamless user experiences. This combination of technologies creates a modern and efficient architecture tailored for scalability and performance.
+              <br />
+              <br />
+            </p>
+          </Col>
         </Row>
       </div>
     </div>
