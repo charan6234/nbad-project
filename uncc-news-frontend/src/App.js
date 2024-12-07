@@ -8,8 +8,6 @@ import Footer from "./components/footer";
 import Researches from "./components/research";
 import Summary from "./components/summary";
 import Reports from "./components/reports";
-import { Navigate } from "react-router-dom";
-
 const App = () => {
   const renderRoutes = () => {
     if (window.localStorage.getItem("token")) {
@@ -87,7 +85,6 @@ const App = () => {
             <Routes>
               <Route index={true} path="/" element={<Login />} />
             </Routes>
-            <Navigate to="/" />
           </div>
         </Fragment>
       );
